@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 1 | Modulo JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="card-container">
+                <div>
+                    <h2>Calculadora de Edad</h2>
+                </div>
+                <form action="/" method="post" id="form">
+                    <div class="form-control">
+                        <label for="name">Nombre Completo</label>
+                        <input type="text" name="name" id="name" placeholder="Ingrese su nombre completo" required autocomplete="off" autocapitalize="words">
+                    </div>
+                    <div class="form-control">
+                        <label for="age">Año de nacimiento</label>
+                        <input type="number" id="age" name="age" placeholder="YYYY" required>
+                    </div>
+                    <div style="text-align: center; display: flex; flex-direction: column; gap: 10px;">
+                        <button id="submitBtn">Subir</button>
+                        <p style="font-size: 12px;">Asegurese de llenar el form completo.</p>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
